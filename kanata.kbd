@@ -24,16 +24,16 @@
   j left
   k down
   l rght
-  u home
-  o end
-  p pgup
-  ; pgdn
-  n C-bspc
-  m C-del
-  b del
-  h bspc
+  h home
+  ; end
+  u pgup
+  o pgdn
+  m del
+  n bspc
 
   tab tab
+  lctl lctl
+  lsft lsft 
    
   
 
