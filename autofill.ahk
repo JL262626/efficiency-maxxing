@@ -1,9 +1,6 @@
 ﻿#Requires AutoHotkey v2.0
-#singleinstance
+#singleinstance Force
 
-!1::{
-    SendText "tqtl054@uowmail.edu.au"
-}
 #HotIf
 :*:;1::quoctrivt@gmail.com
 #HotIf
