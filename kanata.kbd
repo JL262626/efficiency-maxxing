@@ -24,12 +24,18 @@
   j left
   k down
   l rght
-  h home
-  ; end
-  u pgup
-  o pgdn
-  n bspc
-  m del
+  u home
+  o end
+  p pgup
+  ; pgdn
+  n C-bspc
+  m C-del
+  b del
+  h bspc
+
+  tab tab
+   
+  
 
   ;; --- Word & Line Selection (with 30ms delay) ---
   d (macro C-left 30 C-S-rght)  ;; Select current word
@@ -44,11 +50,5 @@
   y C-y                         ;; Redo
   s C-s                         ;; Save
 
-  ;; --- Muted Letter Keys ---
-  q XX  w XX  e XX  r XX  t XX  p XX  [ XX  ] XX  \ XX
-  g XX  ' XX
-  b XX  , XX  . XX  / XX
-
-  ;; --- Muted Number Row ---
-  grv XX  1 XX  2 XX  3 XX  4 XX  5 XX  6 XX  7 XX  8 XX  9 XX  0 XX  - XX  = XX
+  __ XX
 )
