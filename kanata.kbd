@@ -33,10 +33,13 @@
 
   tab tab
   lctl lctl
-  lsft lsft 
+  rctl rctl
+  lsft lsft
+  rsft rsft 
+  enter enter
+  lalt lalt
+  ralt ralt
    
-  
-
   ;; --- Word & Line Selection (with 30ms delay) ---
   d (macro C-left 30 C-S-rght)  ;; Select current word
   f (macro home 30 S-end)       ;; Select current line
@@ -49,6 +52,8 @@
   a C-a                         ;; Select All
   y C-y                         ;; Redo
   s C-s                         ;; Save
+  w C-w
+  t C-t
 
   __ XX
 )

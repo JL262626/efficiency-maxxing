@@ -7,3 +7,14 @@
 :*:;2::tqtl054@uowmail.edu.au
 #HotIf
 :*:;3::jack.le@v-daq.com.au
+#HotIf
+
+:*:;c::
+{
+    SendText 'git commit -m ""'
+    Send '{Left}'
+}  
+
+:*:;a::git add .
+:*:;s::git status
+ 
