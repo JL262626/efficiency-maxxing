@@ -39,6 +39,7 @@
   enter enter
   lalt lalt
   ralt ralt
+  caps enter
    
   ;; --- Word & Line Selection (with 30ms delay) ---
   d (macro C-left 30 C-S-rght)  ;; Select current word
@@ -54,6 +55,26 @@
   s C-s                         ;; Save
   w C-w
   t C-t
+  e C-e				;; Hop to search bar
+  r C-m				;; Fluent search UI
+  q C-lalt			;; Fluent search
+
+  esc esc
+
+  1  f1
+  2  f2
+  3  f3
+  4  f4
+  5  f5
+  6  f6
+  7  f7
+  8  f8
+  9  f9
+  0  f10
+  -  f11
+  =  f12
+
+  
 
   __ XX
 )
