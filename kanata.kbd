@@ -10,9 +10,6 @@
 (deflayermap (base)
   ;; Tap for Space, hold for Navigation layer (200ms timeout)
   spc (tap-hold 200 200 spc (layer-while-held nav))
-
-  ;; Completely disable the Caps Lock key
-  caps XX
 )
 
 ;; -----------------------------------------------------------------------------
